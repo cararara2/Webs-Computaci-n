@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Jorge L. </title>
+  <style>
+    body{margin:0; display:flex; justify-content:center; align-items:center; height:100vh; flex-direction:column}
+    img {width:50vw; height:30vw; object-fit:cover}
+  </style>
+</head>
+
+<body>
+  <img src ="images/inicial.png" id="inicial">
+  <br>
+  <p style="text-align:center; color:red"> IMÁGENES RARAS </p>
+  <button onclick="Anterior()"> Anterior </button>
+  <button onclick="Siguiente()"> Siguiente </button>
+  
+  <script>
+    let a = ["images/a.jpg","images/b.jpg","images/c.jpg","images/d.jpg","images/e.jpg"]
+    let i = 2;
+    function Anterior(){
+      if (i>0){i--} 
+      document.getElementById("inicial").src=a[i]
+    }
+      
+    function Siguiente(){
+      if (i<4){i++}
+      document.getElementById("inicial").src=a[i]
+    }
+  </script>
+</body>
+
+</html>

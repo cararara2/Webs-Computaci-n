@@ -1,0 +1,10 @@
+h1 {font-weight:bold}
+h2 {font-weight:bold}
+h3 {font-weight:bold}
+h4 {font-weight:bold}
+
+body {font-family:verdana}
+img {margin-left:150px}
+p {color:#000; font-size:12px; width: 60%; padding-left:50px}
+ol, ul {border-style:dotted; margin-right:500px; background:#AFEEEE}
+li {color: #000; font-size:11px; width:60%; padding:5px}
